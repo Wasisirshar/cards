@@ -11,12 +11,22 @@
      margin: 1em;
      font-family: 'Segoe UI',;
     }
-    
+    .container:hover{
+        background-blend-mode: overlay;
+        background-color:rgba(96, 81, 228, 0);
+
+    }
     h2{
         text-align: center;
         color: #a1a1a1;
         padding-top: 1;
     }
+
+    h2:hover{
+        background-blend-mode: overlay;
+        background-color:rgba(96, 81, 228, 0);
+    }
+
     p{
         color: whitesmoke;
         text-align: center;
@@ -31,7 +41,7 @@
      color: #a1a1a1;
      margin-top: 10em;
     }
-    
+   
     .btn{
         border: none;
         color: #274488;
